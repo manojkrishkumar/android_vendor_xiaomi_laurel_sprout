@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/laurel_sprout
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/libcamera2ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera2ndk.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/libcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_client.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_metadata.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.common@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@1.0.so \
@@ -13,8 +16,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.3.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.4.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.5.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.6.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.4.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.5.so \
+    vendor/xiaomi/laurel_sprout/proprietary/lib/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.6.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/vendor.qti.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.camera.device@3.2.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
