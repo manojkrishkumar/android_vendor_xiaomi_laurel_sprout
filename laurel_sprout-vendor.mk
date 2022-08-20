@@ -3509,8 +3509,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service \
-	android.hardware.health@2.1 \
-	libMpeg4SwEncoder \
+    android.hardware.health@2.1 \
+    libMpeg4SwEncoder \
     libthermalclient \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
